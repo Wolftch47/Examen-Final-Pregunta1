@@ -12,7 +12,7 @@ root.title("Triángulo - Área y Perímetro")
 canvas = tk.Canvas(root, width=400, height=400)
 canvas.pack()
 
-# Dibujar el triángulo y mostrar sus datos
+# Dibujar el triángulo y mostrar datos
 triangulo.dibujar(canvas)
 
 # Ejecutar ventana
