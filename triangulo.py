@@ -21,7 +21,7 @@ class Triangulo(Geometria):
         x1, y1 = x0 + self.base, y0
         x2, y2 = x0 + (self.base / 2), y0 - self.altura
 
-        # Dibujar el triángulo en el canvas
+        # Dibujar el triángulo en canvas
         canvas.create_polygon(x0, y0, x1, y1, x2, y2, outline="black", fill="lightblue", width=2)
 
         # Calcular y mostrar el área y perímetro

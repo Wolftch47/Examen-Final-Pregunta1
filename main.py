@@ -15,5 +15,5 @@ canvas.pack()
 # Dibujar el triángulo y mostrar sus datos
 triangulo.dibujar(canvas)
 
-# Ejecutar la ventana
+# Ejecutar ventana
 root.mainloop()
